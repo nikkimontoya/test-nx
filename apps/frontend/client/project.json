@@ -64,7 +64,10 @@
           "browserTarget": "frontend-client:build:development"
         }
       },
-      "defaultConfiguration": "development"
+      "defaultConfiguration": "development",
+      "options": {
+        "proxyConfig": "apps/frontend/client/proxy.conf.json"
+      }
     },
     "extract-i18n": {
       "executor": "@angular-devkit/build-angular:extract-i18n",
@@ -90,5 +93,8 @@
       }
     }
   },
-  "tags": ["scope:frontend-client"]
+  "tags": [
+    "scope:frontend-client",
+    "type:app"
+  ]
 }

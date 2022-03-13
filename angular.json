@@ -1,6 +1,7 @@
 {
   "version": 2,
   "projects": {
+    "backend-api": "apps/backend/api",
     "frontend-admin": "apps/frontend/admin",
     "frontend-admin-e2e": "apps/frontend/admin-e2e",
     "frontend-client": "apps/frontend/client",
