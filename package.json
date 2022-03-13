@@ -11,6 +11,11 @@
     "frontend-admin:start": "nx serve frontend-admin",
     "frontend-admin:build": "nx build frontend-admin",
     "frontend-admin:test": "nx test frontend-admin",
+    "backend-api:start": "nx serve backend-api",
+    "backend-api:build": "nx build backend-api",
+    "backend-api:test": "nx test backend-api",
+    "db:start": "cp .env ./docker-compose && cd docker-compose && docker-compose up -d",
+    "db:stop": "cd docker-compose && docker-compose stop && rm .env",
     "start": "nx serve",
     "build": "nx build",
     "test": "nx test"
