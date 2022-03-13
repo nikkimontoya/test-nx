@@ -6,12 +6,13 @@ import { NxWelcomeComponent } from './nx-welcome.component';
 import { RouterModule } from '@angular/router';
 
 @NgModule({
-  declarations: [AppComponent, NxWelcomeComponent],
-  imports: [
-    BrowserModule,
-    RouterModule.forRoot([], { initialNavigation: 'enabledBlocking' }),
-  ],
-  providers: [],
-  bootstrap: [AppComponent],
+    declarations: [AppComponent, NxWelcomeComponent],
+    imports: [
+        BrowserModule,
+        RouterModule.forRoot([], { initialNavigation: 'enabledBlocking' })
+    ],
+    providers: [],
+    bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule {
+}
