@@ -49,6 +49,7 @@
     }
   },
   "tags": [
-    "type:app"
+    "type:app",
+    "scope:backend-api"
   ]
 }
