@@ -1,6 +1,8 @@
 {
   "version": 2,
   "projects": {
+    "frontend-admin": "apps/frontend/admin",
+    "frontend-admin-e2e": "apps/frontend/admin-e2e",
     "frontend-client": "apps/frontend/client",
     "frontend-client-e2e": "apps/frontend-client-e2e"
   }
