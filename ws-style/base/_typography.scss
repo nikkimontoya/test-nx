@@ -1,0 +1,33 @@
+/* Set antialiasing */
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Set default styles */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Set html height 100% */
+html {
+    height: 100%;
+}
+
+/* Set body height in small window 100% */
+body.window-small {
+    height: 100%;
+}
+
+/* Set default animation duration */
+a, button {
+    transition: all 250ms ease;
+}
