@@ -96,8 +96,5 @@
       }
     }
   },
-  "tags": [
-    "scope:frontend-client",
-    "type:app"
-  ]
+  "tags": ["scope:frontend-client", "type:app"]
 }

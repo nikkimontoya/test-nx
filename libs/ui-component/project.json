@@ -1,0 +1,33 @@
+{
+  "projectType": "library",
+  "root": "libs/ui-component",
+  "sourceRoot": "libs/ui-component/src",
+  "prefix": "test-nx",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/ui-component"],
+      "options": {
+        "jestConfig": "libs/ui-component/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/ui-component/src/**/*.ts",
+          "libs/ui-component/src/**/*.html"
+        ]
+      }
+    },
+    "build": {
+      "options": {
+        "stylePreprocessorOptions": {
+          "includePaths": ["ws-styles"]
+        }
+      }
+    }
+  },
+  "tags": ["type:lib", "scope:ui-lib"]
+}
