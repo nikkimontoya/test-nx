@@ -15,6 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@test-nx/shared/data-access/interfaces": [
+        "libs/shared/data-access/interfaces/src/index.ts"
+      ],
       "@test-nx/ui-component": ["libs/ui-component/src/index.ts"]
     }
   },

@@ -6,6 +6,7 @@
     "frontend-admin-e2e": "apps/frontend/admin-e2e",
     "frontend-client": "apps/frontend/client",
     "frontend-client-e2e": "apps/frontend-client-e2e",
+    "shared-data-access-interfaces": "libs/shared/data-access/interfaces",
     "ui-component": "libs/ui-component"
   }
 }
