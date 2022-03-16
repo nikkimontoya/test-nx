@@ -10,6 +10,7 @@ export const environment = {
     dropSchema: false,
     synchronize: true,
     logging: true,
+    autoLoadEntities: true,
     entities: [
       'dist/apps/backend/api/src/**/*.entity{.ts, .js}'
     ],
