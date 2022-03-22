@@ -1,6 +1,6 @@
 export interface ISignAuthPayload {
     username: string;
-    password: number;
+    password: string;
 }
 
 export interface ISignAuthResponse {
